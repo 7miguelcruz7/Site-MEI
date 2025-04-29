@@ -86,5 +86,8 @@ style.innerHTML = `
   body.dark-mode #button a {
     color: white;
   }
+  body.dark-mode #description #quote {
+  color: #ffff;
+  }
 `;
 document.head.appendChild(style);
